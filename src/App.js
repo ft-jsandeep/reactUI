@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import { makeStyles } from "@material-ui/core";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Layout from "./components/Layout";
+import Page404 from "./components/Page404";
+import UserData from "./components/UserData";
 
-function App() {
+const useStyles = makeStyles({
+  "@global": {
+    body: {
+      backgroundColor: "#196C6C",
+    },
+  },
+});
+
+const App = () => {
+  useStyles();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+        <Layout>
+          <Switch>
+            <Route exact path="/">
+              <UserData />
+            </Route>
+            <Route exact path="/Page404">
+              <Page404 />
+            </Route>
+          </Switch>
+        </Layout>
+      </Router>
+    </>
   );
-}
+};
 
 export default App;
