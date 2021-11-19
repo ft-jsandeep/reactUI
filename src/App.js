@@ -19,7 +19,7 @@ const App = () => {
       <Router>
         <Layout>
           <Switch>
-            <Route exact path="/">
+            <Route exact path="/reactUI">
               <UserData />
             </Route>
             <Route exact path="/Page404">

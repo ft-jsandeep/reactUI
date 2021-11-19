@@ -7,6 +7,7 @@ import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import { Pagination } from "@mui/material";
 import Search from "./Search";
+import userImg from "../UserImg.jpg";
 import {
   Chip,
   IconButton,
@@ -116,9 +117,7 @@ export default function UserData() {
                         <MoreVertIcon />
                       </IconButton>
                     }
-                    avatar={
-                      <Avatar className={classes.avatar} src="../UserImg.jpg" />
-                    }
+                    avatar={<Avatar className={classes.avatar} src={userImg} />}
                     padding="0"
                   />
                   <CardContent>

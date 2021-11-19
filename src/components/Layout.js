@@ -72,7 +72,7 @@ export default function Layout({ children }) {
     {
       text: "HR Management",
       icon: "",
-      path: "/",
+      path: "/reactUI",
     },
   ];
   return (
