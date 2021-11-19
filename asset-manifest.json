@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/reactUI/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/reactUI/static/js/main.44d56465.chunk.js",
-    "main.js.map": "/reactUI/static/js/main.44d56465.chunk.js.map",
-    "runtime-main.js": "/reactUI/static/js/runtime-main.fb8cb805.js",
-    "runtime-main.js.map": "/reactUI/static/js/runtime-main.fb8cb805.js.map",
-    "static/js/2.d8eedcd8.chunk.js": "/reactUI/static/js/2.d8eedcd8.chunk.js",
-    "static/js/2.d8eedcd8.chunk.js.map": "/reactUI/static/js/2.d8eedcd8.chunk.js.map",
-    "static/js/3.5e1f41a9.chunk.js": "/reactUI/static/js/3.5e1f41a9.chunk.js",
-    "static/js/3.5e1f41a9.chunk.js.map": "/reactUI/static/js/3.5e1f41a9.chunk.js.map",
+    "main.js": "/reactUI/static/js/main.e1432cbb.chunk.js",
+    "main.js.map": "/reactUI/static/js/main.e1432cbb.chunk.js.map",
+    "runtime-main.js": "/reactUI/static/js/runtime-main.10bfcb65.js",
+    "runtime-main.js.map": "/reactUI/static/js/runtime-main.10bfcb65.js.map",
+    "static/js/2.23311e0e.chunk.js": "/reactUI/static/js/2.23311e0e.chunk.js",
+    "static/js/2.23311e0e.chunk.js.map": "/reactUI/static/js/2.23311e0e.chunk.js.map",
+    "static/js/3.38a86c81.chunk.js": "/reactUI/static/js/3.38a86c81.chunk.js",
+    "static/js/3.38a86c81.chunk.js.map": "/reactUI/static/js/3.38a86c81.chunk.js.map",
     "index.html": "/reactUI/index.html",
     "static/css/main.6dea0f05.chunk.css.map": "/reactUI/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.d8eedcd8.chunk.js.LICENSE.txt": "/reactUI/static/js/2.d8eedcd8.chunk.js.LICENSE.txt",
+    "static/js/2.23311e0e.chunk.js.LICENSE.txt": "/reactUI/static/js/2.23311e0e.chunk.js.LICENSE.txt",
     "static/media/UserImg.3a77c33f.jpg": "/reactUI/static/media/UserImg.3a77c33f.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.fb8cb805.js",
-    "static/js/2.d8eedcd8.chunk.js",
+    "static/js/runtime-main.10bfcb65.js",
+    "static/js/2.23311e0e.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.44d56465.chunk.js"
+    "static/js/main.e1432cbb.chunk.js"
   ]
 }
