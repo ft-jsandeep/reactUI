@@ -16,18 +16,18 @@ const App = () => {
   useStyles();
   return (
     <>
-      <Router>
-        <Layout>
-          <Switch>
-            <Route exact path="/reactUI">
-              <UserData />
-            </Route>
+      {/* <Router> */}
+      <Layout>
+        {/* <Switch> */}
+        {/* <Route exact path="/reactUI"> */}
+        <UserData />
+        {/* </Route>
             <Route exact path="/Page404">
               <Page404 />
             </Route>
-          </Switch>
-        </Layout>
-      </Router>
+          </Switch> */}
+      </Layout>
+      {/* </Router> */}
     </>
   );
 };

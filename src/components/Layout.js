@@ -10,7 +10,7 @@ import {
   Divider,
 } from "@material-ui/core";
 import pic from "../Capture.png";
-import { useHistory, useLocation } from "react-router";
+// import { useHistory, useLocation } from "react-router";
 
 const drawerWidth = 240;
 const useStyles = makeStyles({
@@ -45,8 +45,8 @@ const useStyles = makeStyles({
 
 export default function Layout({ children }) {
   const classes = useStyles();
-  const history = useHistory();
-  const location = useLocation();
+  // const history = useHistory();
+  // const location = useLocation();
 
   const menuItems = [
     {
@@ -103,10 +103,10 @@ export default function Layout({ children }) {
               <ListItem
                 button
                 key={item.text}
-                onClick={() => history.push(item.path)}
-                className={
-                  location.pathname === item.path ? classes.active : null
-                }
+                // onClick={() => history.push(item.path)}
+                // className={
+                //   location.pathname === item.path ? classes.active : null
+                // }
               >
                 <ListItemText primary={item.text} />
                 <ListItemIcon className={classes.color}>
